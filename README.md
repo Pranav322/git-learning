@@ -35,5 +35,5 @@ git push - kinda like upload
 git push origin master -u -- origin is our name of remote repo and master is branch name and u will allow us to use command git pull 
 
 
-
+# next -git merge
 
