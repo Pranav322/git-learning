@@ -36,4 +36,9 @@ git push origin master -u -- origin is our name of remote repo and master is bra
 
 
 # next -git merge
+# if we are changing directly in remote repository our remote repository will be one commit ahead so how to sync our remote repository with local repository , lets see
 
+# now we have master branch in remote and in loca and we both are unsynced
+# there are two ways - fetch and merge
+#git fetch - fetch change from remote and then merge
+git merge origin/master
