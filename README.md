@@ -35,6 +35,7 @@ git push - kinda like upload
 git push origin master -u -- origin is our name of remote repo and master is branch name and u will allow us to use command git pull 
 
 
+
 # next -git merge
 # if we are changing directly in remote repository our remote repository will be one commit ahead so how to sync our remote repository with local repository , lets see
 
