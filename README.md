@@ -43,3 +43,30 @@ git push origin master -u -- origin is our name of remote repo and master is bra
 # there are two ways - fetch and merge
 #git fetch - fetch change from remote and then merge
 git merge origin/master
+
+# git pull - dont fetch and merge , just pull
+
+but if you have uncommited change in local repository and try to pull there might be conflict  , so aither commit or use stash - we will look at it later
+# there migh tbe merge conflict even when your loca code is modifying the smae code that you are pulling
+
+# git clone - clone a repository from remote
+
+# github codespaces
+
+when you are on your repo , hit . --it will open a cloud based version of your version on vs code , but you dont have terminal access
+
+
+---------start git branch now------------------
+
+git branch - this command will gice list of all current branch
+
+git branch -M main - this will change our master branch name to main which is common thing nowadays
+
+git branch <branch name> - will create a new branch
+git branch -d <branch name> - will delete
+d and D differ - D will delete no matter what but d will delete safely
+
+# git -checkout
+
+git checkout <branch name> - switch to brannch 
+
